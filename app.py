@@ -140,7 +140,7 @@ def requires_auth(permission=''):
 @requires_auth
 def headers(jwt):
     print(jwt)
-    return 'not implemented'
+    return 'Access Granted'
 
 
 @app.route('/image')
